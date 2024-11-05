@@ -7,7 +7,7 @@
 
     <button type="reset">RESET</button>
     <button type="submit">CREATE</button>
-    <nuxt-link to="/">Return</nuxt-link>
+    <nuxt-link to="/courses">Return</nuxt-link>
   </form>
   {{ message }}
 </template>
