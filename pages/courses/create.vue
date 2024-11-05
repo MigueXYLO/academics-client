@@ -27,7 +27,7 @@
       body: courseForm
     }
     const { error } = await useFetch(`${api}/course`, requestOptions)
-    if (!error.value) navigateTo('/index_courses')
+    if (!error.value) navigateTo('/courses')
     message.value = error.value
   }
 </script>
