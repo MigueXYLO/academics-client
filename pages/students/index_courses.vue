@@ -1,7 +1,8 @@
 <template>
   <div v-if="error">Error: {{ error.message }}</div>
   <div v-else>
-    <nuxt-link to="/create_course">Create a New Course</nuxt-link>
+    <nuxt-link to="/students">View Students</nuxt-link>
+    <nuxt-link to="/students/create_course">Create a New Course</nuxt-link>
     <h2>Students</h2>
     <table>
       <thead>
